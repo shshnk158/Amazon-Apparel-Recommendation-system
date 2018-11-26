@@ -19,7 +19,6 @@ This recommendations are done based on the behaviour of the user.A small example
 if    U1 ===> I1,I2 ,I3   (Purchases or Searches)   # U-User , I-Item
 and   U2 ===> I1,I3,I4
 then  U3 ===> I1,(I3)      # recommend user 3 item I3 as he purchased I1.
-
 ```
 
 U3's recommendations came from behaviour of similar users as he purchased I1. This is Collobarative filtering.
@@ -99,12 +98,14 @@ The main concept in this text based is we convert title text into vectors and fi
 so to convert text into vectors, we use
 
 **1. Bag of words**
+
 **2. TF-IDF**
+
 **3. Word2Vec**
 
 This Word2Vec also considers semantics and sequence of data.
 
-**A detailed description of all these concepts was shown in my kaggle kernel https://www.kaggle.com/shashanksai/text-preprocessing-using-python**
+**A detailed description of all these concepts was shown in my kaggle kernel [Link]https://www.kaggle.com/shashanksai/text-preprocessing-using-python**
 
 #### 5. Image based Product Recommendation
 
