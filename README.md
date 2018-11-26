@@ -14,12 +14,14 @@ As its name suggests, we do content based recommendation, means its based on tit
 
 2. Collobarative filtering based recommendation:
 This recommendations are done based on the behaviour of the user.A small example can be seen,
+
 ```
 if    U1 ===> I1,I2 ,I3   (Purchases or Searches)   # U-User , I-Item
 and   U2 ===> I1,I3,I4
 then  U3 ===> I1,(I3)      # recommend user 3 item I3 as he purchased I1.
 
 ```
+
 U3's recommendations came from behaviour of similar users as he purchased I1. This is Collobarative filtering.
 But, Amazon doesnt provide users data, so we are not going to do collobarative filtering. Instead we use content based.
 
@@ -96,13 +98,13 @@ We use only feature title to recommend apparels. In the next part used images fo
 The main concept in this text based is we convert title text into vectors and find closest vectors to it using equilidean distance. The more closer the both vectors the most similar it is.
 so to convert text into vectors, we use
 
-**1. Bag of words
-**2. TF-IDF
-**3. Word2Vec
+**1. Bag of words**
+**2. TF-IDF**
+**3. Word2Vec**
 
 This Word2Vec also considers semantics and sequence of data.
 
-**A detailed description of all these concepts was shown in my kaggle kernel https://www.kaggle.com/shashanksai/text-preprocessing-using-python **
+**A detailed description of all these concepts was shown in my kaggle kernel https://www.kaggle.com/shashanksai/text-preprocessing-using-python**
 
 #### 5. Image based Product Recommendation
 
@@ -125,14 +127,14 @@ if we build two models, we split the users into 2 categories named A and B. we d
 
 **Recommended Apparels**
 
-![alt text](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/1.jpg)
-![alt text](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/2.jpg)
-![alt text](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/3.jpg)
-![alt text](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/4.jpg)
-![alt text](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/5.jpg)
-![alt text](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/6.jpg)
-![alt text](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/7.jpg)
-![alt text](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/8.jpg)
-![alt text](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/9.jpg)
+![Image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/1.jpg)
+![Image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/2.jpg)
+![Image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/3.jpg)
+![Image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/4.jpg)
+![Image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/5.jpg)
+![Image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/6.jpg)
+![Image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/7.jpg)
+![Image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/8.jpg)
+![Image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/9.jpg)
 
 
