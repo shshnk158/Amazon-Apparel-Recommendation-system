@@ -116,9 +116,20 @@ This is like performance metric to evaluate our model in production, so here i'm
 if we build two models, we split the users into 2 categories named A and B. we deploy both models on both categories and compare the resutls and decide the better model.
 
 
+#### Results/Output
 
+**Query Image**
+<p align="center">
+  <img src="https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/q.jpg" width="350" title="Query Image">
+</p>
 
+**Recommended Apparels**
 
-
+![alt text](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/1.jpg)
+![alt text](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/2.jpg)
+![alt text](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/3.jpg)
+![alt text](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/4.jpg)
+![alt text](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/5.jpg)
+![alt text](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/6.jpg)
 
 
