@@ -1,11 +1,11 @@
 # Amazon-Apparel-Recommendation-system
 Recommend similar apparel items/products in ecommerce.
 
-### Business objective 
+## Business objective 
 > Recommending similar apparel items to user.
 Its estimated that amazon's 35% revenue is generated using product recommendations.
 
-### Approach
+## Approach
 
 We have two approaches here, 
 
@@ -24,7 +24,7 @@ then  U3 ===> I1,(I3)      # recommend user 3 item I3 as he purchased I1.
 U3's recommendations came from behaviour of similar users as he purchased I1. This is Collobarative filtering.
 But, Amazon doesnt provide users data, so we are not going to do collobarative filtering. Instead we use content based.
 
-### Plan of Attack
+## Plan of Attack
 
 These are the steps we follow during this project.
 1. Data aquisition
@@ -43,7 +43,7 @@ We solve this problem with both Text based and Image based.
     - Using CNN deep learning techniques
 6. A/B testing.
 
-#### 1. Data Aquisition:
+### 1. Data Aquisition:
 We can use Amazon's Product Advertising API, and get the required data. We took womens tops as the dataset . It consists of 183000 datapoints, having 19 features each.
 ```
 Index(['asin', 'author', 'availability', 'availability_type', 'brand', 'color',
@@ -62,9 +62,9 @@ But we use only 6 features for this project.
 6. title (title of the product.)
 7. formatted_price (price of the product)
 
-#### 2. Data Cleaning
+### 2. Data Cleaning
 
-###### Basic Stats of every feature
+#### Basic Stats of every feature
 For every feature we ask these questions
 - How many missing values are present.
 - Whats top frequent item, and how many times its repeating.
@@ -74,7 +74,7 @@ For every feature we ask these questions
 Just removed all the datapoints that have null value in feature columns **formatted_price** and **color**. after this we left with around 28000 datapoints.
 If you see, we have a feature named **medium_image_url** this is url for our apparel image of medium size. Uisng Python Imaging Library (PIL) got all those images and saved them.
 
-###### Remove near duplicate items
+#### Remove near duplicate items
 If we observe the feature **title**, there are many similar duplicate texts only varying in colors or sizes in its title like,
 ```
 25. tokidoki The Queen of Diamonds Women's Shirt X-Large
@@ -88,10 +88,10 @@ If we observe the feature **title**, there are many similar duplicate texts only
 So we remove these duplicates, by comparing words in the title, we also remove title that contains less than 5 words.
 After removing all these duplicates we have our dataset around 16000 datapoints.
 
-#### 3. Text Preprocessing
+### 3. Text Preprocessing
 Basic text preprocessing steps like stopwords removal,spaces, alpha numeric characters removal and lowering the aplhabet cases.
 
-#### 4. Text Based Product Recommendation
+### 4. Text Based Product Recommendation
 
 We use only feature title to recommend apparels. In the next part used images for recommendation, we also combine both title and images for recommendation.
 The main concept in this text based is we convert title text into vectors and find closest vectors to it using equilidean distance. The more closer the both vectors the most similar it is.
@@ -105,21 +105,21 @@ so to convert text into vectors, we use
 
 This Word2Vec also considers semantics and sequence of data.
 
-**A detailed description of all these concepts was shown in my kaggle kernel [Link]https://www.kaggle.com/shashanksai/text-preprocessing-using-python**
+**A detailed description of all these concepts was shown in my [kaggle kernel](https://www.kaggle.com/shashanksai/text-preprocessing-using-python)**
 
-#### 5. Image based Product Recommendation
+### 5. Image based Product Recommendation
 
 Using Transfer learning (means using already processed algorithm on some other data), we use VGG 16 algorithm to convert images data into vectors. 
 
 All these outputs, results can be seen in Ipynb file.
 
-#### 6. A/B testing
+### 6. A/B testing
 This is like performance metric to evaluate our model in production, so here i'm gonna give an overview about it.
 
 if we build two models, we split the users into 2 categories named A and B. we deploy both models on both categories and compare the resutls and decide the better model.
 
 
-#### Results/Output
+### Results/Output
 
 **Query Image**
 <p align="center">
