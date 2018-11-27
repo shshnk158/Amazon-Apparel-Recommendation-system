@@ -123,21 +123,21 @@ if we build two models, we split the users into 2 categories named A and B. we d
 
 **Query Image**
 <p align="center">
-  <img src="https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/q.jpg" width="150" title="Query Image">
+  <img src="Images/q.jpg" width="150" title="Query Image">
 </p>
 
 **Recommended Apparels**
 
-![image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/1.jpg)
-![image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/2.jpg)
-![image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/3.jpg)
-![image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/4.jpg)
-![image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/5.jpg)
-![image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/6.jpg)
-![image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/7.jpg)
+![image](Images/1.jpg)
+![image](Images/2.jpg)
+![image](Images/3.jpg)
+![image](Images/4.jpg)
+![image](Images/5.jpg)
+![image](Images/6.jpg)
+![image](Images/7.jpg)
 ![image](Images/8.jpg)
 ![image](Images/9.jpg)
 
-### Reloaded
+
 
 
