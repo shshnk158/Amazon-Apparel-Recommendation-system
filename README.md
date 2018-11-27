@@ -128,7 +128,7 @@ if we build two models, we split the users into 2 categories named A and B. we d
 
 **Recommended Apparels**
 
-![Image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/1.jpg)
+![Image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/tree/master/Images/1.jpg)
 ![Image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/2.jpg)
 ![Image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/3.jpg)
 ![Image](https://github.com/shshnk158/Amazon-Apparel-Recommendation-system/blob/master/Images/4.jpg)
